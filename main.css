@@ -1,0 +1,271 @@
+:root{
+    --color-1 :#3c6885;
+    --color-2:#8ab2bc;
+    --color-3:#4f8dbe;
+    --color-4:#73cff4;
+    --color-5:#3d688a;
+    --color-6: #cadee9;
+    --color-7:#fefefe;
+    --color-8:#5f9ac6;
+   
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*** ========== Header Top and  Menu Area =========== ******/
+.header-top-mobile, .header-top-email,.footer-top-mobile,
+.footer-top-email{
+    font-size:1.3rem;
+    font-weight: 700;
+    color: var(--color-2);
+}
+
+.menu-bg{
+    background-color: #3d688a;
+}
+.menu-bg-radius{
+    border-radius: 5px;
+}
+.nav-menu  li  a{
+     color:#c5d8dc !important; 
+     text-transform: uppercase;
+     font-family: yantramanavbold;
+  
+}
+.nav-menu  li  a:hover{
+    color:#fff !important;
+}
+.social-icon-alignment{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+
+}
+.social-icon-alignment svg{
+    font-family: yantramanavbold;
+    color:#c5d8dc !important;
+    font-size: 25px;
+}
+.social-icon-alignment svg:hover{
+    color:#fff !important;
+    cursor: pointer;
+    transition: .3s;
+}
+.menu-bg.menu-bg-radius {
+    position: relative;
+    top: 27px;
+}
+/*********** ====== Banner section area ===== *********/
+.banner-section{
+    background-image: url("./images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.95vw;
+    height: 600px;
+    background-position: center center;
+    
+}
+.banner-text-heading{
+    font-size: 18px;
+    font-weight: 900;
+}
+.working-hours{
+    background-color: #3d688a;
+}
+.contact-details{
+    background-color: #4f8dbe;
+}
+.request-appointment{
+    background-color: #73cff4;
+}
+/*********** ============ What Make Different Area =========== ****/
+.make-different-area{
+    position: relative;
+    background-color: #f2f6f9;
+    background-repeat: no-repeat;
+    background-image: url('./images/leftsit-doctor.jpg');
+   background-size: cover;
+    left: 0;
+    top: 0;
+    width: 98.9vw;
+    z-index: 111;
+   background-position: left center;
+   
+}
+.make-different-border-top{
+    border-top:2px solid #D6E6E7;
+}
+
+/* .make-different-area:before{
+    content: "";
+    background-image: url("./images/left-sitedoctor.jpg");
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: -111;
+    background-size: contain;
+} */
+.make-different-heading {
+    padding-top: 70px;
+    color:#3d688a;
+    font-size: 2.5rem;
+    font-weight: 900;
+
+}
+.make-different-paragraph{
+    color:var(--color-2);
+    font-size:1.5rem;
+}
+.make-different-icon{
+    color:var(--color-2);
+    font-size:2.5rem;
+}
+.make-different-icon-text{
+    font-size:1.3rem;
+    font-weight: 900;
+    color:var(--color-1);
+}
+
+
+/********* Our Medical Service ***************/
+.our-medical-service-area{
+    background-image:url("./images/stathescope.jpg");
+    width: 98.9vw;
+    height: auto;
+   
+}
+.our-medical-service-heading{
+    padding-top: 5rem;
+    color:var(--color-4);
+}
+
+.our-medical-service-icon{
+    color:var(--color-4);
+    font-size:4rem;
+    margin:2rem auto;
+    display:block;
+   
+}
+
+.our-medical-service-icon-heading{
+    margin-top: 2rem;
+    color:var(--color-7,white);
+}
+.our-medical-service-icon-paragraph{
+    color:var(--color-6);
+}
+/************ booking area **********/
+.booking-area{
+    background-image: url('./images/service-bg.jpg');
+    width: 98.9vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booking-bg{
+    background-color:#e9f1f4;
+    margin:10px 0;
+}
+.booking-visit{
+    background-color: var(--color-1);
+    font-size: 2rem;
+
+}
+.department-button-text{
+    color:var(--color-1);
+    font-weight: 700;
+}
+.department-bg{
+    background-color: var(--color-3);
+    font-size: 2rem;
+    /* font-weight: 700; */
+    
+}
+
+
+/************ team member Area ************/
+
+.team-member-heading-color{
+    color:var(--color-1);
+    font-weight: 700;
+}
+.team-member-designation-color{
+    color:#7dadb7;
+}
+
+.team-member-social-icon a{
+    color:#7dadb7;
+    transition: .2s;
+}
+.team-member-social-icon a:hover, .team-heading{
+    color:#3e6e94;
+}
+
+/************ latest Blog and New Area **********/
+.latest-blog-area{
+    background-color: #c5d8dc;
+}
+.team-button-bg-color{
+    background-color: #3e6e94;
+}
+
+.temp-paragraph{
+    color:var(--color-2);
+}
+.temp-border-bottom-5{
+    border-bottom: 5px solid #3e6e94;
+}
+
+/********** what patient About ***********/
+.about-patient-area{
+    background-image: url('./images/bg-patient.jpg');
+    width: 98.9vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh;
+} 
+
+.patient-heading-color{
+    color: var(--color-4);
+    margin-bottom: 5rem;
+}
+
+
+
+/************ footer Top Tables *************/
+.footer-top-area{
+
+    background-color:#4f8dbe;
+}
+
+.get-doctor-bg{
+    background-color: #fff;
+}
+
+.footer-bottom-area{
+    background-color: #3d688a;
+}
+
+.email-bg{
+    background-color:#5f9ac6;
+    color:#fff;
+}
+
+
+.blog-post-doctor-icon{
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
